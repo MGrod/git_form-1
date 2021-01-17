@@ -3,13 +3,17 @@ h1{
     font-weight: bold;
 }
 
+h2 {
+    color: darkred;
+    font-size: 1em;
+}
+
 *{
     box-sizing: border-box;
 }
 
 body{
     padding: 30px 30%;
-    
 }
 
 form{
@@ -99,4 +103,15 @@ form input, textarea{
     background-color: pink;
     color: white;
     border-radius: 5px;
+}
+
+.description {
+    font-weight: bold;
+    color: black;
+    transition: 0.5s;
+}
+
+.description:hover {
+    color: blue;
+    border-bottom: 1px solid black;
 }
